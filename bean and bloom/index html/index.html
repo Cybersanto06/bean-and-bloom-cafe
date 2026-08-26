@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bean & Bloom Café</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header><nav><a class="logo" href="#home">Bean<span>&</span>Bloom</a><div><a href="#menu">Menu</a><a href="#about">About</a><a href="#order">Order</a></div></nav></header>
+  <main>
+    <section id="home" class="hero"><div><p class="tag">LUSAKA'S LITTLE COFFEE CORNER</p><h1>Good coffee.<br>Better days.</h1><p>Freshly brewed coffee, homemade snacks, and a calm place to meet, work, or relax.</p><a class="button" href="#order">Order a drink</a></div><div class="cup" aria-label="coffee cup">☕</div></section>
+    <section id="menu" class="section"><p class="tag">OUR FAVOURITES</p><h2>Made with care</h2><div class="menu"><article><span>☕</span><h3>Cappuccino</h3><p>Rich espresso with soft milk foam.</p><b>K35</b></article><article><span>🥐</span><h3>Breakfast Combo</h3><p>Coffee, croissant, and fresh fruit.</p><b>K65</b></article><article><span>🧋</span><h3>Iced Latte</h3><p>Cold, creamy, and refreshing.</p><b>K40</b></article></div></section>
+    <section id="about" class="about"><div><p class="tag">A WARM WELCOME</p><h2>A small café with a big heart.</h2></div><p>Bean & Bloom is a friendly neighbourhood café where every cup is prepared fresh. Come in, slow down, and enjoy your favourite drink.</p></section>
+    <section id="order" class="section"><p class="tag">QUICK ORDER</p><h2>Choose your drink</h2><div class="order"><label>Your name<input id="customerName" type="text" placeholder="Enter your name"></label><label>Drink<select id="drink"><option value="35">Cappuccino — K35</option><option value="40">Iced Latte — K40</option><option value="65">Breakfast Combo — K65</option></select></label><label>Quantity<input id="quantity" type="number" value="1" min="1" max="10"></label><button id="orderButton">Place order</button><p id="orderMessage">Your order summary will appear here.</p></div></section>
+  </main>
+  <footer>Bean & Bloom Café · Lusaka, Zambia<br>Open Monday–Saturday, 07:00–18:00</footer><script src="script.js"></script>
+</body></html>
